@@ -14,7 +14,6 @@
             [resultString appendFormat:@"%c",[capitalizedString characterAtIndex:i]];
             numOfLetterInB ++;
         }
-        
     } if ([resultString isEqual:b]) {
         return  @"YES";
     } else {
